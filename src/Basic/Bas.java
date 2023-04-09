@@ -1,18 +1,18 @@
 package Basic;
 //public class main{
 public class Bas{
-        public int add(int a,int b) {
-    int sum = a + b;
-    return sum;
+        public int FindCube(int radius) {
+    int cube = radius*radius*radius;
+    return cube;
 }
 
 
     public static void main(String[] args) {
-        int s = 4;
-        int d = 8;
+        int radius1 = 4;
+        //int d = 8;
         //Crete Class
         Bas akash = new Bas();
-        int result = akash.add(s,d);
+        int result = akash.FindCube(radius1);
         System.out.println("sum is: " + result);
 
     }
